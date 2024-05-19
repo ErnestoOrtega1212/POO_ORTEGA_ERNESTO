@@ -8,3 +8,5 @@ x2 = (-b -  (b**2 - (4 * a * c)) ** 0.5) / (2 * a)
 
 print("El valor  de x1 es: ", x1)
 print("El valor de x2 es: ", x2)
+
+print("formula general resuelta")
