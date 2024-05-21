@@ -7,3 +7,5 @@ else:
     print("No puedes ingresar al antro, eres menor de edad")
 
     
+
+    
