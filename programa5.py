@@ -6,6 +6,4 @@ if edad >= 18:
 else:
     print("No puedes ingresar al antro, eres menor de edad")
 
-    
 
-    
