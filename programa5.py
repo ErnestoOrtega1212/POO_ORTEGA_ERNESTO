@@ -1,4 +1,4 @@
-print("Bienvenido al antro ""x")
+print("Bienvenido a Leuk")
 edad = int(input("Ingrese su edad: "))
 
 if edad >= 18:
