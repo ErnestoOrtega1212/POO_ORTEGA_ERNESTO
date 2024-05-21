@@ -10,3 +10,4 @@ print("El valor  de x1 es: ", x1)
 print("El valor de x2 es: ", x2)
 
 print("formula general resuelta")
+
