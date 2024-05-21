@@ -7,5 +7,3 @@ imc = round(peso / (estatura ** 2), 2)
 print("Su índice de masa corporal es: ", imc)
 
 
-
-
