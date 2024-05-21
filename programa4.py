@@ -11,3 +11,4 @@ print("El valor de x2 es: ", x2)
 
 print("formula general resuelta")
 
+
