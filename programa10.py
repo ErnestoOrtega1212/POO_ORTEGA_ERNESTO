@@ -15,7 +15,7 @@ while True:
     cerrar = str(input())
 
     if cerrar == "N":
-        "Programa cerrado con exito!"
+        print("Programa cerrado con exito!")
         break
     else:
         print("El programa se ejecutara de nuevo")
