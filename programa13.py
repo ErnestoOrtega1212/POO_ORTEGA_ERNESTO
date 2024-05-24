@@ -3,3 +3,4 @@ paises = ["Mexico", "Rusia", "Arabia", "Estados Unidos", "Canada", "Colombia", "
 for elemento in paises:
     print(elemento)
     
+    
