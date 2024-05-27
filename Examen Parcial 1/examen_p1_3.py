@@ -28,3 +28,4 @@ print("Hay", Jovenes, "Jovenes")
 print("Hay", Adolescentes, "Adolescentes")
 print("Hay", Infancia, "Infantiles")
 print("Hay", Maternal, "en Maternal")
+
