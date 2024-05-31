@@ -9,3 +9,4 @@ for i in edades:
 
 print(mayores)
 print(menores)
+
