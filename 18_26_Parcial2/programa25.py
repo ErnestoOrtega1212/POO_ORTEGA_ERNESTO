@@ -15,8 +15,11 @@ class Laptop:
     def procesar(self):
         print("Procesando Datos")
 
-#/////////////////////////////////////////////////////////////////////////////////////////
+    def describir(self):
+        print("El nombre del siguiente equipo es: ", self.nombre, "de modelo", self.modelo,
+              "cuenta con", self.ram, "memoria ram y un procesador", self.procesador)
 
+#/////////////////////////////////////////////////////////////////////////////////////////
 #Agregacion
 class Tienda:
     def __init__(self, nombre):
@@ -33,7 +36,6 @@ class Tienda:
             print(lap.nombre, lap.modelo)   
 
 #/////////////////////////////////////////////////////////////////////////////////////////
-
 #Asociacion
 class Tecnico:
     def __init__(self, nombre):
@@ -49,7 +51,6 @@ class Tecnico:
         for lap in self.equipos_en_reparacion:
             print(lap.nombre, lap.modelo)
     
-
 #/////////////////////////////////////////////////////////////////////////////////////////
 
 lap1 = Laptop("Huawei", "D14", "12GB", "Intel i5 11va")
@@ -67,17 +68,16 @@ tienda.añadir_lista(lap1)
 tienda.añadir_lista(lap2)
 tienda.añadir_lista(lap3)
 
-print("----------------------------------------------------------------")
 print("Steren cuenta con los siguientes equipos: ")
 tienda.listar_equipos()
 
+print("----------------------------------------------------------------")
 tecnico = Tecnico("Raul")
 
 tecnico.añadir_lista(lap1)
 tecnico.añadir_lista(lap2)
 tecnico.añadir_lista(lap3)
-
-print("-----------------------------------------------------------------")
 tecnico.listar_equipos()
 
+print("-----------------------------------------------------------------")
 
